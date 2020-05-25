@@ -1,12 +1,25 @@
 body{
     margin: 0;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
 }
-.my-image{
-    /* background-image: url('bg-top.jpg'); */
-    display: block;
-    width: 100%;
+/* .container1 h2{
+    font-size: 20px;    
+}
+.container1{
+    font-family: 'Barlow Condensed', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(81, 233, 182);
     height: 500px;
-    /* background-repeat: no-repeat; */
-    object-fit: cover;
-    object-position: top;
+    width: 100%;
+    text-align: center;
 }
+.focused{
+    color: rgb(5, 73, 5);
+    font-size: 45px;
+} */
+/* .my-container h1{
+
+} */

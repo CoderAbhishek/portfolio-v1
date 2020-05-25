@@ -1,4 +1,35 @@
 @charset "UTF-8";
+.text-success {
+  color: #043104;
+}
+
+.container1 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #51e9b6;
+  height: 500px;
+  width: 100%;
+  text-align: center;
+}
+.container1 h2 {
+  font-size: 20px;
+}
+.container1 h2 .focused {
+  color: #054905;
+  font-size: 45px;
+}
+
+.container2 {
+  background-color: #f8f8de;
+  height: 500px;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+}
+
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
