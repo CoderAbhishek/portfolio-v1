@@ -3,6 +3,10 @@ body{
     font-family: 'Barlow Condensed', sans-serif;
     font-weight: 600;
 }
+.navbar{
+    position: fixed;
+    width: 100%;
+}
 .containers{
     font-weight: 600;
 }
@@ -25,7 +29,9 @@ body{
     flex-direction: column;
     justify-content: center;
     background-color: rgb(102, 201, 168);
-    height: 500px;
+    padding: 1em;
+    height: auto;
+    min-height: 650px;
     width: 100%;
     text-align: center;
 }
@@ -34,18 +40,43 @@ body{
     font-size: 55px;
 }
 .container2{
-    background-color: rgb(248, 248, 222);
+    background-color: rgb(247, 247, 174);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    height: 500px;
+    padding: 1em;
+    height: auto;
+    min-height: 650px;
     width: 100%;
     text-align: center;
     font-size: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     font-weight: lighter;
+}
+.content-area{
+    width: 60%;
+}
+/* @media (max-width: 600px){
+    .content-area{
+        width: 100%;
+        text-align: justify;
+    }
+}
+@media (max-width: 400px){
+    .container2{
+        height: auto;
+        text-align: justify;
+    }
+} */
+
+.divide{
+    margin: 2% auto;
+    width: 100%;
+    color: black;
+    height: 1px;
+    background-color: black;
 }
 /* .my-container h1{
 
