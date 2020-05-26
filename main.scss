@@ -1,4 +1,33 @@
 // Custom.scss
 // Option A: Include all of Bootstrap
 
+.text-success{
+    color: rgb(4, 49, 4);
+}
+
+// .container1{
+//     font-family: 'Barlow Condensed', sans-serif;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     background-color: rgb(81, 233, 182);
+//     height: 500px;
+//     width: 100%;
+//     text-align: center;
+//     h2{
+//         font-size: 20px;    
+//         .focused{
+//             color: rgb(5, 73, 5);
+//             font-size: 45px;
+//         }
+//     }
+// }
+// .container2{
+//     background-color: rgb(248, 248, 222);
+//     height: 500px;
+//     width: 100%;
+//     text-align: center;
+//     font-size: 30px;
+// }
+
 @import "./node_modules/bootstrap/scss/bootstrap";
