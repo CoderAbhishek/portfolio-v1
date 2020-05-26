@@ -6,6 +6,7 @@ body{
 .navbar{
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
 .containers{
     font-weight: 600;
@@ -58,26 +59,32 @@ body{
 .content-area{
     width: 60%;
 }
-/* @media (max-width: 600px){
-    .content-area{
-        width: 100%;
-        text-align: justify;
-    }
-}
-@media (max-width: 400px){
-    .container2{
-        height: auto;
-        text-align: justify;
-    }
-} */
-
 .divide{
     margin: 2% auto;
-    width: 100%;
+    width: 80%;
     color: black;
     height: 1px;
     background-color: black;
 }
-/* .my-container h1{
-
-} */
+.my-col{
+    margin: 2% auto;
+    /* background-color: white; */
+    min-height: 250px;
+    max-height: 400px;
+    height: 90%;
+    width: 90%;
+}
+.my-image{
+    width: 100%;
+    object-fit: fill;
+    overflow: hidden;
+}
+.brand-col{
+    margin: 10px;
+}
+.icon{
+    padding: 0.3em;
+    background-color: black;
+    color: blanchedalmond;
+    border-radius: 5px;
+}
