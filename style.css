@@ -66,19 +66,80 @@ body{
     height: 1px;
     background-color: black;
 }
+.my-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 .my-col{
-    margin: 2% auto;
+    position: relative;
+    margin: 2% 2%;
+    display: flex;
+    align-items: center;
     /* background-color: white; */
-    min-height: 250px;
     max-height: 400px;
-    height: 90%;
-    width: 90%;
+    max-width: 400px;
+    box-shadow: 8px 8px 4px 1px rgb(82, 48, 55);
+    /* height: 90%;
+    width: 90%; */
 }
 .my-image{
     width: 100%;
     object-fit: fill;
     overflow: hidden;
+    padding: 0;
+    /* box-shadow: 8px 8px 4px 1px rgb(82, 48, 55); */
 }
+@media (max-width:750px){
+    .my-row{
+        flex-direction: column;
+    }
+}
+.my-image:hover{
+    box-shadow: none;
+    transition: 0.4s;
+    /* background-color: gray; */
+    /* opacity: 0.5; */
+    
+}
+.overlay{
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 0.4s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: gray;
+    color: white;
+    font-size: 2em;
+}
+.my-col:hover{
+    box-shadow: none;
+    transition-duration: 0.4s;
+}
+.overlay:hover{
+    opacity: 0.9;
+    /* box-shadow: none;*/
+    transition-duration: 0.4s;
+}
+/* @media (my-image:hover){
+    .overlay{
+        color:
+    }
+} */
+/* .overlay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
 .brand-col{
     margin: 10px;
 }
