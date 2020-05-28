@@ -129,6 +129,18 @@ body{
     /* box-shadow: none;*/
     transition-duration: 0.4s;
 }
+.my-list{
+    list-style-type: none;
+    font-size: 1.25em;
+    text-align: left;
+}
+.my-text{
+    color: rgb(0, 0, 0);
+}
+.my-text:hover{
+    color: black;
+    text-shadow: 1px 1px grey;
+}
 /* @media (my-image:hover){
     .overlay{
         color:
